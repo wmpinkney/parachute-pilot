@@ -472,6 +472,9 @@ function drawHUD() {
 // Part 4 – Main Loop & Audio
 // ==========================================
 
+// Music toggle flag for menu
+let musicEnabled = true;
+
 // ------------------------------------------
 // SIMPLE SOUND ENGINE (retro tone synth)
 // ------------------------------------------
@@ -553,3 +556,4 @@ gameLoop();
 // The longer you survive, the faster it gets!
 // --- END PART 4 ---
 // --- END PART 1 ---
+
